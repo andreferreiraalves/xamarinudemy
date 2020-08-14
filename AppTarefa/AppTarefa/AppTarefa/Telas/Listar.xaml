@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTarefa.Telas.Listar"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F5F6FA">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions >
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label Text="Segunda feira" />
+
+                <Frame Grid.Column="1" BackgroundColor="#4043C9" CornerRadius="20">
+                    <Label Text="9" />
+                </Frame>
+            </Grid>
+
+            <Frame HasShadow="false" CornerRadius="30" TranslationY="30" Grid.Row="1"></Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

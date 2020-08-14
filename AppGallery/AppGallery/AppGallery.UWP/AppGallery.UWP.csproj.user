@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</Source>
+    <SmallTileSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</SmallTileSource>
+    <MediumTileSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</MediumTileSource>
+    <WideTileSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</WideTileSource>
+    <LargeTileSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</LargeTileSource>
+    <AppIconSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</AppIconSource>
+    <SplashScreenSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</SplashScreenSource>
+    <PackageLogoSource>D:\projects\XamarinUdemy\AppGallery\Material\Icone\Icone.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

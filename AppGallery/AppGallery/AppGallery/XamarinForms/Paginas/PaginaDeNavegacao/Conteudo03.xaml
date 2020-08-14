@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Paginas.PaginaDeNavegacao.Conteudo03"
+             Title="Conteúdo 03"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Inserir página na pilha" Clicked="InserirPaginaFilha" />
+            <Button Text="Remover página na pilha" Clicked="RemoverPaginaFIlha" />
+            
+            <Label Text="Página de conteúdo 03"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Voltar" Clicked="VoltarPaginaAnterior" />
+
+            <Button Text="Voltar para início" Clicked="VoltarParaInicio" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
